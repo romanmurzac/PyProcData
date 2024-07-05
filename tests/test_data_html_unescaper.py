@@ -1,6 +1,6 @@
 import pytest
 
-from src.html_unescaper import HTMLUnescaper
+from pyprocdata.data_html_unescaper import HTMLUnescaper
 
 
 class TestHTMLUnescaper:
@@ -17,7 +17,7 @@ class TestHTMLUnescaper:
     ]
     
     @pytest.mark.parametrize(TEST_STATES, test_cases)
-    def test_unescape_html(self, actual_result, expected_result):
+    def test_data_unescape_html(self, actual_result, expected_result):
         html_unescaper = HTMLUnescaper(actual_result)
         input_data = html_unescaper.unescape_html()
         assert input_data == expected_result

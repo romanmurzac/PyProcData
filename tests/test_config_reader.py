@@ -1,7 +1,7 @@
 import pytest
 import json
 
-from src.config_reader import ConfigReader
+from pyprocdata.config_reader import ConfigReader
 
 
 class TestConfigReader:

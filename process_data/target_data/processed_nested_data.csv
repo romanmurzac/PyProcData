@@ -1,0 +1,5 @@
+column_1,column_2,column_3,column
+1,A,First,*****MASKED*****
+2,B,Second,*****MASKED*****
+3,C,&,*****MASKED*****
+4,D,Fourth,*****MASKED*****
