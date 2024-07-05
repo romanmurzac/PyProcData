@@ -7,8 +7,7 @@
         "transformation": true,
         "flattening": false,
         "html_unescape": ["column_3"],
-        "masking": ["column_1"],
-        "ofuscate": []
+        "masking": ["column_1"]
       }
     }
   ]

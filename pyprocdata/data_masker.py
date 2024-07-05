@@ -7,8 +7,12 @@ class DataMasker:
         self.columns = config["processes"]["masking"]
         self.raw_data = raw_data
 
+    def _mask_element(self, element):
+        element = "*****MASKED*****"
+        return element
+    
     def mask_data(self):
         if self.columns:
             for column in self.columns:
-                self.raw_data = self.raw_data.with_columns(column=pl.when(True).then(pl.lit('*****MASKED*****')).otherwise(pl.col(column)))
+                self.raw_data = self.raw_data.update(self.raw_data.select(pl.col(column).map_elements(self._mask_element, return_dtype=pl.String)))
         return self.raw_data
