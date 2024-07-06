@@ -14,5 +14,5 @@ class DataMasker:
     def mask_data(self):
         if self.columns:
             for column in self.columns:
-                self.raw_data = self.raw_data.update(self.raw_data.select(pl.col(column).map_elements(self._mask_element, return_dtype=pl.String)))
+                self.raw_data = self.raw_data.with_columns(pl.when(True).then(pl.lit('*****MASKED*****')).otherwise(pl.col(column)).alias(column))
         return self.raw_data

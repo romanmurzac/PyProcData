@@ -1,10 +1,10 @@
 [
   {
-    "source_file": "nested_data.csv",
+    "source_file": "nested_data.json",
     "target_file": "processed_data.csv",
     "transformation": "transformation.sql",
     "processes": {
-      "transformation": false,
+      "transformation": true,
       "flattening": true,
       "html_unescape": [],
       "masking": []

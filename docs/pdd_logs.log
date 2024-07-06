@@ -299,3 +299,210 @@
 07/05/2024 12:54:50 PM - INFO - Data was processed for HTML unescape.
 07/05/2024 12:54:50 PM - INFO - Data was processed for SQL transformation.
 07/05/2024 12:54:50 PM - INFO - Data was written.
+07/05/2024 01:51:18 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 01:51:18 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 01:51:18 PM - INFO - Data was read from source file.
+07/05/2024 01:51:18 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 01:51:18 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 01:52:54 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 01:52:54 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 01:52:54 PM - INFO - Data was read from source file.
+07/05/2024 01:52:54 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 01:52:54 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 01:54:36 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 01:54:36 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 01:54:36 PM - INFO - Data was read from source file.
+07/05/2024 01:54:36 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 01:54:36 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 01:55:09 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 01:55:09 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 01:55:09 PM - INFO - Data was read from source file.
+07/05/2024 01:55:09 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 01:55:09 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 01:55:09 PM - INFO - Data was written.
+07/05/2024 01:55:09 PM - INFO - config: [{'source_file': 'nested_data.csv', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': False, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 01:55:09 PM - INFO - Data was read from source file.
+07/05/2024 01:55:09 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 01:55:09 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 01:55:09 PM - INFO - Data was written.
+07/05/2024 01:55:55 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 01:55:55 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 01:55:55 PM - INFO - Data was read from source file.
+07/05/2024 01:55:55 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 01:55:55 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:01:07 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:01:07 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:01:07 PM - INFO - Data was read from source file.
+07/05/2024 02:01:07 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:01:07 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:01:07 PM - INFO - Data was written.
+07/05/2024 02:01:07 PM - INFO - config: [{'source_file': 'nested_data.csv', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': False, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:01:07 PM - INFO - Data was read from source file.
+07/05/2024 02:01:07 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:01:07 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:01:07 PM - INFO - Data was written.
+07/05/2024 02:02:23 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:02:23 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:02:23 PM - INFO - Data was read from source file.
+07/05/2024 02:02:23 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:02:23 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:02:23 PM - INFO - Data was written.
+07/05/2024 02:02:23 PM - INFO - config: [{'source_file': 'nested_data.csv', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': False, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:04:31 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:04:31 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:04:31 PM - INFO - Data was read from source file.
+07/05/2024 02:04:31 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:04:31 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:04:31 PM - INFO - Data was written.
+07/05/2024 02:04:31 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:04:31 PM - INFO - Data was read from source file.
+07/05/2024 02:04:31 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:04:31 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:04:31 PM - INFO - Data was written.
+07/05/2024 02:07:09 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:07:09 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:07:09 PM - INFO - Data was read from source file.
+07/05/2024 02:07:09 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:07:09 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:07:09 PM - INFO - Data was written.
+07/05/2024 02:07:09 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:07:09 PM - INFO - Data was read from source file.
+07/05/2024 02:07:09 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:07:09 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:07:09 PM - INFO - Data was written.
+07/05/2024 02:10:53 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:10:53 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:10:53 PM - INFO - Data was read from source file.
+07/05/2024 02:10:53 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:10:53 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:11:16 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:11:16 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:11:16 PM - INFO - Data was read from source file.
+07/05/2024 02:11:16 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:11:16 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:11:16 PM - INFO - Data was written.
+07/05/2024 02:11:16 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:11:16 PM - INFO - Data was read from source file.
+07/05/2024 02:11:16 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:11:16 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:11:16 PM - INFO - Data was written.
+07/05/2024 02:24:01 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:24:01 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:24:01 PM - INFO - Data was read from source file.
+07/05/2024 02:24:01 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:24:01 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:24:01 PM - INFO - Data was written.
+07/05/2024 02:24:01 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:24:01 PM - INFO - Data was read from source file.
+07/05/2024 02:24:01 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:24:01 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:24:01 PM - INFO - Data was written.
+07/05/2024 02:24:19 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:24:19 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:24:19 PM - INFO - Data was read from source file.
+07/05/2024 02:24:19 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:24:19 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:24:19 PM - INFO - Data was written.
+07/05/2024 02:24:19 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:24:19 PM - INFO - Data was read from source file.
+07/05/2024 02:24:19 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:24:19 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:24:19 PM - INFO - Data was written.
+07/05/2024 02:27:51 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:27:51 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:27:51 PM - INFO - Data was read from source file.
+07/05/2024 02:27:51 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:27:51 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:31:12 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:31:12 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:31:12 PM - INFO - Data was read from source file.
+07/05/2024 02:31:12 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:31:12 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:31:28 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:31:28 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:31:28 PM - INFO - Data was read from source file.
+07/05/2024 02:31:28 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:31:28 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:31:28 PM - INFO - Data was written.
+07/05/2024 02:31:28 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:31:28 PM - INFO - Data was read from source file.
+07/05/2024 02:31:28 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:31:28 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:31:28 PM - INFO - Data was written.
+07/05/2024 02:32:24 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:32:24 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:32:24 PM - INFO - Data was read from source file.
+07/05/2024 02:32:24 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:32:24 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:32:24 PM - INFO - Data was written.
+07/05/2024 02:32:24 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:32:24 PM - INFO - Data was read from source file.
+07/05/2024 02:32:24 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:32:24 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:32:24 PM - INFO - Data was written.
+07/05/2024 02:32:33 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:32:33 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1']}}]
+07/05/2024 02:32:33 PM - INFO - Data was read from source file.
+07/05/2024 02:32:33 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:32:33 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:32:33 PM - INFO - Data was written.
+07/05/2024 02:32:33 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:32:33 PM - INFO - Data was read from source file.
+07/05/2024 02:32:33 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:32:33 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:32:33 PM - INFO - Data was written.
+07/05/2024 02:32:56 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:32:56 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1', 'column_2']}}]
+07/05/2024 02:32:56 PM - INFO - Data was read from source file.
+07/05/2024 02:32:56 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:32:56 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:32:56 PM - INFO - Data was written.
+07/05/2024 02:32:56 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:32:56 PM - INFO - Data was read from source file.
+07/05/2024 02:32:56 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:32:56 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:32:56 PM - INFO - Data was written.
+07/05/2024 02:34:59 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 02:34:59 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1', 'column_2']}}]
+07/05/2024 02:34:59 PM - INFO - Data was read from source file.
+07/05/2024 02:34:59 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:34:59 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:34:59 PM - INFO - Data was written.
+07/05/2024 02:34:59 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 02:34:59 PM - INFO - Data was read from source file.
+07/05/2024 02:34:59 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 02:34:59 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 02:34:59 PM - INFO - Data was written.
+07/05/2024 05:15:29 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 05:15:29 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1', 'column_2']}}]
+07/05/2024 05:15:29 PM - INFO - Data was read from source file.
+07/05/2024 05:15:29 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 05:15:29 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 05:15:29 PM - INFO - Data was written.
+07/05/2024 05:15:29 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 05:15:29 PM - INFO - Data was read from source file.
+07/05/2024 05:15:29 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 05:15:29 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 05:15:29 PM - INFO - Data was written.
+07/05/2024 05:16:48 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 05:16:48 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1', 'column_2']}}]
+07/05/2024 05:16:48 PM - INFO - Data was read from source file.
+07/05/2024 05:16:48 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 05:16:48 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 05:16:48 PM - INFO - Data was written.
+07/05/2024 05:16:48 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 05:16:48 PM - INFO - Data was read from source file.
+07/05/2024 05:16:48 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 05:16:48 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 05:16:48 PM - INFO - Data was written.
+07/05/2024 05:17:34 PM - INFO - job_definitions: ['sample_1', 'sample_2']
+07/05/2024 05:17:34 PM - INFO - config: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1', 'column_2']}}]
+07/05/2024 05:17:34 PM - INFO - Data was read from source file.
+07/05/2024 05:17:34 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 05:17:34 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 05:17:34 PM - INFO - Data was written.
+07/05/2024 05:17:34 PM - INFO - config: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+07/05/2024 05:17:34 PM - INFO - Data was read from source file.
+07/05/2024 05:17:34 PM - INFO - Data was processed for HTML unescape.
+07/05/2024 05:17:34 PM - INFO - Data was processed for SQL transformation.
+07/05/2024 05:17:34 PM - INFO - Data was written.

@@ -5,9 +5,9 @@
       "transformation": "transformation.sql",
       "processes": {
         "transformation": true,
-        "flattening": false,
+        "flattening": true,
         "html_unescape": ["column_3"],
-        "masking": ["column_1"]
+        "masking": ["column_1", "column_2"]
       }
     }
   ]

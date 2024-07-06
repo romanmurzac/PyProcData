@@ -1,5 +1,2 @@
 column_1,column_2,column_3
-*****MASKED*****,A,First
-*****MASKED*****,B,Second
-*****MASKED*****,C,&
-*****MASKED*****,D,Fourth
+*****MASKED*****,*****MASKED*****,Fourth

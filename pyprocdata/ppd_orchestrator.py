@@ -5,6 +5,7 @@ from data_writer import DataWriter
 from data_queryer import QueryReader
 from data_html_unescaper import HTMLUnescaper
 from data_masker import DataMasker
+from data_flattener import DataFlattener
 from ppd_logger import logger
 
 
@@ -46,13 +47,16 @@ class PPDOrchestrator:
                 logger.info("Data was processed for SQL transformation.")
                 print(dataframe)
 
-                # Apply flattening.
-
                 # Apply masking.
                 data_masker = DataMasker(config=config, raw_data=dataframe)
                 dataframe = data_masker.mask_data()
                 print(dataframe)
 
+                # Apply flattening.
+                data_flattener = DataFlattener(config=config, raw_data=dataframe)
+                dataframe = data_flattener.flatten_data()
+                print(dataframe)
+                
                 # Write processed dataframe to output file.
                 data_writer = DataWriter(dataframe=dataframe, config=config)
                 data_writer.write_data()
