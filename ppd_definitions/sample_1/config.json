@@ -1,0 +1,13 @@
+[
+    {
+      "source_file": "data_query.csv",
+      "target_file": "processed_nested_data.csv",
+      "transformation": "transformation.sql",
+      "processes": {
+        "transformation": true,
+        "flattening": true,
+        "html_unescape": ["column_3"],
+        "masking": ["column_1", "column_2"]
+      }
+    }
+  ]
