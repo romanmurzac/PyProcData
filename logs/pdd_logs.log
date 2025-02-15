@@ -1,0 +1,17 @@
+02/15/2025 01:50:17 PM - INFO - Job Definitions Found: ['sample_1', 'sample_2']
+02/15/2025 01:50:17 PM - INFO - Processing Job: sample_1
+02/15/2025 01:50:17 PM - INFO - Config Loaded: [{'source_file': 'data_query.csv', 'target_file': 'processed_nested_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': ['column_3'], 'masking': ['column_1', 'column_2']}}]
+02/15/2025 01:50:17 PM - INFO - Processing Dataset: data_query.csv
+02/15/2025 01:50:17 PM - INFO - Data Read Successfully (5 rows, 3 columns)
+02/15/2025 01:50:17 PM - INFO - Applied HTML Unescape.
+02/15/2025 01:50:17 PM - INFO - SQL Transformation Applied.
+02/15/2025 01:50:17 PM - INFO - Data Masking Applied.
+02/15/2025 01:50:17 PM - INFO - Data Flattening Applied.
+02/15/2025 01:50:17 PM - INFO - Data Successfully Written to processed_nested_data.csv.
+02/15/2025 01:50:17 PM - INFO - Processing Job: sample_2
+02/15/2025 01:50:17 PM - INFO - Config Loaded: [{'source_file': 'nested_data.json', 'target_file': 'processed_data.csv', 'transformation': 'transformation.sql', 'processes': {'transformation': True, 'flattening': True, 'html_unescape': [], 'masking': []}}]
+02/15/2025 01:50:17 PM - INFO - Processing Dataset: nested_data.json
+02/15/2025 01:50:17 PM - INFO - Data Read Successfully (2 rows, 2 columns)
+02/15/2025 01:50:17 PM - INFO - SQL Transformation Applied.
+02/15/2025 01:50:17 PM - INFO - Data Flattening Applied.
+02/15/2025 01:50:17 PM - INFO - Data Successfully Written to processed_data.csv.
