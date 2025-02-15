@@ -26,5 +26,5 @@ dev = [
 testpaths = ["tests"]
 addopts = "--cov=pyprocdata --cov-report=xml"
 
-[tool.setuptools.packages]
-find = {}
+[tool.setuptools]
+packages = ["pyprocdata"]
