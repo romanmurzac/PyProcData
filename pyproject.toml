@@ -1,11 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-# Other project metadata...
+name = "PyProcData"
+version = "0.1.0"
+description = "A data processing framework using Polars"
+authors = [{ name = "Roman Murzac", email = "roman.murzac@gmail.com" }]
+readme = "README.md"
+license = { text = "MIT" }
 dependencies = [
-    "flask",
+    "polars"
+]
+
+[project.optional-dependencies]
+dev = [
     "pytest",
-    "pytest-cov"
+    "pytest-cov",
+    "black",
+    "flake8",
+    "mypy"
 ]
 
 [tool.pytest.ini_options]
-
 testpaths = ["tests"]
+addopts = "--cov=pyprocdata --cov-report=xml"
+
+[tool.setuptools]
+packages = ["pyprocdata"]
