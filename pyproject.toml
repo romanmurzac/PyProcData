@@ -1,7 +1,7 @@
 [project]
-# Other project metadata...
+name = "PyProcData"
 dependencies = [
-    "flask",
+    "polars",
     "pytest",
     "pytest-cov"
 ]
