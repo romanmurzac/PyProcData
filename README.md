@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/romanmurzac/pyprocdata/actions/workflows/build.yml/badge.svg)](https://github.com/romanmurzac/pyprocdata/actions)
+[![Build Status](https://github.com/romanmurzac/pyprocdata/actions/workflows/CI.yml/badge.svg)](https://github.com/romanmurzac/pyprocdata/actions)
 [![PyPI version](https://badge.fury.io/py/data_processor.svg)](https://badge.fury.io/py/data_processor)
 [![codecov](https://codecov.io/gh/romanmurzac/data_processor/branch/main/graph/badge.svg?token=yourtoken)](https://codecov.io/gh/romanmurzac/data_processor)
 
